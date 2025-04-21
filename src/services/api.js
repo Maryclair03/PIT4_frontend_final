@@ -1,4 +1,4 @@
-const BASE_URL = "https://pit4-backend.onrender.com";
+const BASE_URL = "https://pit4-backend.onrender.com/todos";
 
 export const fetchTodos = async (status = "") => {
   const res = await fetch(`${BASE_URL}/todos/?status=${status}`);
