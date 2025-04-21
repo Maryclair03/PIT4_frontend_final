@@ -9,7 +9,7 @@ import {
   updateTodo,
   deleteTodo,
 } from "./services/api";
-import "./App.css"; // Make sure you have your styles here
+import "./App.css"; 
 
 export default function App() {
   const [tasks, setTasks] = useState([]);

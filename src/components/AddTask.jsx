@@ -13,7 +13,7 @@ export default function AddTask({ onAdd }) {
 
   return (
     <form onSubmit={handleSubmit} className="mb-4">
-      <div className="flex items-center border rounded p-2 bg-white shadow"> {/* Flex container with shadow */}
+      <div className="flex items-center border rounded p-2 bg-white shadow"> 
         <input
           className="flex-grow border-none outline-none p-2"
           type="text"
