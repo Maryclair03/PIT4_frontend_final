@@ -1,7 +1,4 @@
-const BASE_URL =
-  import.meta.env.MODE === "development"
-    ? "http://localhost:8000"
-    : "https://pit4-backend.onrender.com";
+const BASE_URL = "https://pit4-backend.onrender.com";
 
 export const fetchTodos = async (status = "") => {
   const res = await fetch(`${BASE_URL}/todos/?status=${status}`);
